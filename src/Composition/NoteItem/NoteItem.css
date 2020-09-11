@@ -1,0 +1,26 @@
+.noteItem{
+    border:1px solid black;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    padding:10px;
+    width:100%;
+    margin-bottom:10px;
+}
+
+.noteInfo{
+    display:flex;
+    flex-direction:column;
+    width:80%;
+}
+
+.noteName{
+    text-decoration:none;
+    color:black;
+    font-size:22px;
+    padding-bottom:15px;
+}
+
+.date{
+    font-size:12px;
+}

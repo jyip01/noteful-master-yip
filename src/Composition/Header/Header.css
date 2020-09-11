@@ -1,0 +1,18 @@
+header{
+    border-bottom:1px solid black;
+    height:20vh;
+    width:100%;
+    display:flex;
+}
+
+header a{
+    text-decoration:none;
+    color:black;
+    font-size:32px;
+    width:65%;
+    line-height:20vh;
+}
+
+header div{
+    width:35%;
+}

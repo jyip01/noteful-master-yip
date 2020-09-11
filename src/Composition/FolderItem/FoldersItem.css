@@ -1,0 +1,21 @@
+.folderButton{
+   border-bottom:1px solid black;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.folderButton:hover{
+    background-color: #87b6fd;
+    cursor: pointer;
+}
+
+.folderButtonLink{
+    text-decoration:none;
+    color:black;
+}
+
+.currentFolder{
+    background-color:#87d9fd;
+}

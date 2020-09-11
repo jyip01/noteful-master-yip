@@ -1,0 +1,10 @@
+.form-group #noteName{
+    border:1px solid grey;
+    padding:3px;
+}
+
+.form-group #content{
+    width:60%;
+    border:1px solid grey;
+    padding:3px;
+}

@@ -1,0 +1,11 @@
+.noteSideBar{
+    margin-top:20px;
+}
+
+.noteSideBar p{
+    margin-top:20px;
+    font-size:22px;
+    width:100%;
+    text-align:right;
+    padding-right:20px;
+}

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match with snapshot 1`] = `
+<div
+  className="contentContainer homePage"
+>
+  <div
+    className="sideBar"
+  >
+    <ul
+      className="folderButtonContainer"
+    />
+    <a
+      className="addFolderButton"
+      href="/AddFolder"
+      onClick={[Function]}
+    >
+      Add folder
+    </a>
+  </div>
+  <div
+    className="main"
+  >
+    <a
+      className="addNoteLink"
+      href="/AddNote"
+      onClick={[Function]}
+    >
+      <button
+        className="addNoteButton"
+      >
+        Add note
+      </button>
+    </a>
+  </div>
+</div>
+`;

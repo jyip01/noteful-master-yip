@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match with snapshot 1`] = `
+<div
+  className="contentContainer"
+>
+  <div
+    className="sideBar formSideBar"
+  >
+    <a
+      className="backButton"
+      href="/"
+      onClick={[Function]}
+    >
+      Go back
+    </a>
+  </div>
+  <div
+    className="main"
+  >
+    <form
+      className="newNote"
+    >
+      <p
+        className="formTitle"
+      >
+        Create a New Note
+      </p>
+      <div
+        className="form-group"
+        onSubmit={[Function]}
+      >
+        <label
+          htmlFor="noteName"
+        >
+          Note Name*
+        </label>
+        <input
+          id="noteName"
+          name="noteName"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="folder"
+        >
+          Folder*
+        </label>
+        <select
+          id="folder"
+          name="folder"
+          onChange={[Function]}
+        >
+          <option
+            value=""
+          >
+            Select a folder
+          </option>
+        </select>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="content"
+        >
+          Content*
+        </label>
+        <input
+          id="content"
+          name="content"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <a
+        className="formSubmitLink"
+        href="/"
+        onClick={[Function]}
+      >
+        <button
+          className="formSubmit disabled"
+          disabled="Note name is required."
+          onClick={[Function]}
+          type="submit"
+        >
+          Submit
+        </button>
+      </a>
+    </form>
+  </div>
+</div>
+`;

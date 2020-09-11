@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match with snapshot 1`] = `
+<div
+  className="contentContainer"
+>
+  <div
+    className="sideBar formSideBar"
+  >
+    <a
+      className="backButton"
+      href="/"
+      onClick={[Function]}
+    >
+      Go back
+    </a>
+  </div>
+  <div
+    className="main"
+  >
+    <form
+      className="newFolder"
+    >
+      <p
+        className="formTitle"
+      >
+        Create a New Folder
+      </p>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="folderName"
+        >
+          Folder Name*
+        </label>
+        <input
+          id="folderName"
+          name="folderName"
+          onChange={[Function]}
+          type="text"
+        />
+      </div>
+      <a
+        className="formSubmitLink"
+        href="/"
+        onClick={[Function]}
+      >
+        <button
+          className="formSubmit disabled"
+          disabled="Folder name is required."
+          onClick={[Function]}
+          type="submit"
+        >
+          Submit
+        </button>
+      </a>
+    </form>
+  </div>
+</div>
+`;

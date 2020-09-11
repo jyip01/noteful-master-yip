@@ -1,0 +1,53 @@
+.formSideBar{
+    padding-top:20px;
+}
+
+.formTitle{
+    font-size:22px;
+}
+
+.form-group label{
+    margin-right:10px;
+}
+
+.form-group #folderName{
+    border:1px solid grey;
+    padding:3px;
+}
+
+.form-group{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.error{
+    color:red;
+    font-size:12px;
+}
+
+.formSubmit{
+    width:30%;
+    display:block;
+    height:40px;
+    font-size:16px;
+}
+
+.formSubmitLink{
+    text-decoration: none;
+}
+
+.disabled{
+    background-color:grey;
+    color:black;
+    border:1px solid grey;
+}
+
+.notDisabled{
+    border:1px solid black;
+}
+
+.notDisabled:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+}
